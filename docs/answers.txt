@@ -1,0 +1,64 @@
+(a) Paste the console output you saved at the end of step 3.C
+ On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   docs/status.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ 
+ 
+(b) How many commits have been done to the repository (not only by you, but
+by anyone) so far? Write the git command you used to get this information 
+
+	Five commits have been made. I used the following command to view:
+	git log
+
+(c) When was the .gitignore 
+file modified last? Write the git command you used to get this information 
+
+	used the gitk command to see that the file was last modified on 1/10/2019
+
+
+(d) Mention two reasons why branches are used in a Git repository 
+
+(e)What is the difference between git log and git status? 
+
+	Git log displays the log of commits specifically while git status displays paths.
+
+(f) What command would you use to see the commits where “Weapon.h” was one of the committed 
+files? 
+	Use git log probably.
+
+(g) What command would you use to see the commits whose commit message 
+contains the word “file”?
+	
+
+(h) In the context of object-oriented programming 
+	(I) What is inheritance?
+			When one class inherits from parent classes.
+	(II) What is polymorphism?
+		When you have an object that can take on multiple forms. For example,
+		a student object that can be a grad student, undergrad, or general student.
+	(III) What is encapsulation? 
+		Combining data and methods for data.
+
+Read the “Git Commands, workflow, and resources.pdf” file on Canvas and answer the 
+following questions:
+
+(i) What is the main difference between the “Dictator and Lieutenants” workflow
+and the “Integration management” workflow”?
+	Dictator and lieutenant workflow contains one central repository where one person can
+	push to, but many can pull from. Dictators and lieutenants can merge branches.
+	
+	Integration workflow allows everyone to make pushes to their own repositories, but they
+	pull from one central repository/ Conflicts are controlled by the manager.
+	
+(j) Why a team of 100 developers would benefit more by following the “Dictator 
+and Lieutenants” workflow instead of the “Centralized” workflow?
+	The Dictator and Lieutenant workflow is best because it is hard to manage the 
+	repositories of 100 other developers. It's a lot easier to control conflicts and manage
+	work being done if they work is just reported to the higher ups.
