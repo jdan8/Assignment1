@@ -2,7 +2,8 @@
 
 #include <string>
 #include "Weapon.h"
-
+#include <time.h>
+#include <stdlib.h>
 
 #ifndef CRAZYRANDOMSWORD_H
 #define CRAZYRANDOMSWORD_H
@@ -11,7 +12,7 @@
 class CrazyRandomSword : public Weapon {
 public:
 
-    CrazyRandomSword() : Weapon("Crazy random sword", 0){
+    CrazyRandomSword() : Weapon("Crazy random sword",(rand() % 100 + 7)){
 	}
 
     virtual ~CrazyRandomSword() {};
