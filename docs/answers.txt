@@ -62,3 +62,10 @@ and Lieutenants” workflow instead of the “Centralized” workflow?
 	The Dictator and Lieutenant workflow is best because it is hard to manage the 
 	repositories of 100 other developers. It's a lot easier to control conflicts and manage
 	work being done if they work is just reported to the higher ups.
+	
+	
+	
+	Part 5
+The RoleGame prototype is an example of polymorphism. The base/parent class "Weapons"
+can be used in the following forms: CommonSword, CommonSpear, SimpleHammer, CrazyRandomSword,
+and AnActualBrick. Each of these seperate classes is a type of weapon with its own functionality.
